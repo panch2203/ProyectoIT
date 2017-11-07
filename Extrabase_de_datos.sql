@@ -10,7 +10,7 @@ CREATE TABLE PROYECTO3(
 
 
 CREATE TABLE EXTRA_CRITERIO(
-	id int AUTOINCREMENT,
+	id int AUTO_INCREMENT,
 	nombre varchar(40),
 	ponderacion int,
 	tipo int,
@@ -19,7 +19,7 @@ CREATE TABLE EXTRA_CRITERIO(
 );
 
 CREATE TABLE CRITERIO_PROYECTO(
-	idcriterio int AUTOINCREMENT,
+	idcriterio int AUTO_INCREMENT,
 	idproyecto int,
 	ponderacion int,
 	PRIMARY KEY(idcriterio,idproyecto),
